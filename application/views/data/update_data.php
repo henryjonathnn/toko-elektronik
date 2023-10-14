@@ -25,6 +25,10 @@
                        };
                   ?>   
                       <div class="form-group">
+                        <label for="exampleInputName1">ID</label>
+                        <input type="text" class="form-control" id="exampleInputName1" name="id" value="<?= $_GET['id'] ?>" readonly>
+                      </div>
+                      <div class="form-group">
                         <label for="exampleInputName1">Nama Konsumen</label>
                         <input type="text" class="form-control" id="exampleInputName1" name="nama_konsumen">
                       </div>
